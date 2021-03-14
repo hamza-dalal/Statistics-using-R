@@ -1,0 +1,18 @@
+---
+title: "Multiplication Table"
+author: "Hamza Dalal"
+date: "14/03/2021"
+output: html_document
+---
+
+```{r}
+#2 - Program to find multiplication table
+multi_table <- function(a) {
+  for(i in 1:10) {
+    print(paste(a, "x", i, "=", a*i))
+  }
+}
+multi_table(5)
+multi_table(2.25)
+```
+

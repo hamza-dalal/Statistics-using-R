@@ -27,7 +27,7 @@ sntrl(89.8)
 swf <- function(n) {
   n = as.integer(n)
   if(n>0) {
-    sum = n*(n+1)/2               #Formula 0f sum of natural numbers
+    sum = n*(n+1)/2               #Formula of sum of natural numbers
     print(paste("Sum of all natural number till", n, "is:", sum))
   } else {
     print("Entered number is not natural")
